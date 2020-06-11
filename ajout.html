@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Gestion des Etudiant</title>
+<script language=javascript src="controler.js"></script>
+</head>
+
+<body>
+
+<form method="POST" action="ajout.php" name="f" onsubmit="return verif();">
+
+	<fieldset style="padding: 2">
+	<legend><b><span style="font-size: 24pt">Gestion</span><span style="font-size: 24pt"> 
+	des Etudiant</span></b></legend>
+	<font size="6">&nbsp;</font><font style="font-size: 18pt">Numéro 
+	d'inscription </font><span style="font-size: 30pt"><font size="6">
+	<span style="font-size: 15pt"><font size="5">
+	<input type="text" name="T1" size="20"></font></span></font></span><font style="font-size: 18pt">
+	</font>
+	<p><font style="font-size: 18pt">&nbsp; Nom </font>
+	<span style="font-size: 30pt"><font size="6"><span style="font-size: 20pt">
+	<font size="5"><input type="text" name="T2" size="15"></font></span></font></span><font style="font-size: 18pt">&nbsp;&nbsp; 
+	Prénom </font><span style="font-size: 28pt"><font size="6">
+	<span style="font-size: 20pt"><font size="5">
+	<input type="text" name="T3" size="20"></font></span></font></span></p>
+	<p><span style="font-size: 18pt">&nbsp;Adresse e-mail </span>
+	<span style="font-size: 28pt"><font size="6"><span style="font-size: 20pt">
+	<font size="5"><input type="text" name="T4" size="20"></font></span></font></span></p>
+	<p><span style="font-size: 18pt">&nbsp;Sexe&nbsp; </span>
+	<span style="font-size: 28pt"><font size="6"><span style="font-size: 20pt">
+	<font size="5"><input type="radio" value="Masculin" name="R1"></font></span></font></span><span style="font-size: 18pt">Masculin</span><span style="font-size: 18pt">
+	</span><span style="font-size: 28pt"><font size="6">
+	<span style="font-size: 20pt"><font size="5">
+	<input type="radio" name="R1" value="Féminin"></font></span></font></span><font style="font-size: 18pt"> 
+	Féminin</font></p>
+	<p><span style="font-size: 18pt">&nbsp;Nature de Bac&nbsp; </span>
+	<span style="font-size: 28pt"><font size="6"><span style="font-size: 20pt">
+	<font size="5"><select size="1" name="D1">
+	<option value="Section">Section</option>
+	<option value="Sciences Informatique">Sciences Informatique</option>
+	<option value="Sciences Expérimentale">Sciences Expérimentale</option>
+	<option value="Maths">Maths</option>
+	<option value="Lettres">Lettres</option>
+	<option value="Gestion et économie">Gestion et économie</option>
+	</select></font></span></font></span></p>
+	<p><span style="font-size: 18pt">&nbsp;Commentaires&nbsp; </span>
+	<span style="font-size: 28pt"><font size="6"><span style="font-size: 15pt">
+	<font size="5"><textarea rows="3" name="S1" cols="20"></textarea></font></span></font></span></p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="submit" value="Envoyer" name="B1">&nbsp;&nbsp;
+	<input type="reset" value="Annuler" name="B2"></p>
+	</fieldset></form>
+
+</body>
+
+</html>
